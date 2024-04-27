@@ -1,0 +1,33 @@
+.Banner_Swiper {
+    width: 100%;
+    height: 400px;
+}
+.Banner_Swiper_Slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Banner_Swiper_Slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Banner_Swiper_prev, .swiper-rtl .Banner_Swiper_next {
+    top: 338px !important;
+    right: 88px !important;
+}
+.Banner_Swiper_next, .swiper-rtl .Banner_Swiper_prev {
+    top: 338px !important;
+    right: 40px !important;
+}
+.Banner_Swiper_prev, .Banner_Swiper_next {/* make the navigation buttons invisible */
+    opacity: 0;
+    transition: all 250ms ease;
+}
+.Banner_Swiper_Name:hover .Banner_Swiper_next, .Banner_Swiper_Name:hover .Banner_Swiper_prev {/* make them visible */
+    opacity: 1;
+}

@@ -1,0 +1,246 @@
+footer {
+    width: 100%;
+    height: fit-content;
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid #f0f0f1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Footer_Content_Box */
+footer .Footer_Content_Box {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Quick_Intro */
+footer .Footer_Content_Box .FCB_Quick_Intro {
+    width: 97.3822%;
+    height: fit-content;
+}
+footer .Footer_Content_Box .FCB_Quick_Intro .FCB_QI_Logo_Home {
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .Footer_Content_Box .FCB_Quick_Intro .FCB_QI_Logo_Home .FCB_QI_LH_Return_Home {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    column-gap: 8px;
+    padding: 8px 16px;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+    color: #a1a3a8;
+    font-size: 12px;
+    font-weight: 500;
+}
+footer .Footer_Content_Box .FCB_Quick_Intro .FCB_QI_Text {
+    height: 40px;
+    margin-top: 14px;
+    font-size: 12px;
+    color: #3f4064;
+    font-weight: 200;
+}
+footer .Footer_Content_Box .FCB_Quick_Intro .FCB_QI_Text .space {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #a1a3a8;
+}
+footer .Footer_Content_Box .FCB_Quick_Intro .FCB_QI_SVG_Box {
+    width: 100%;
+    height: 104px;
+    margin: 32px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+footer .Footer_Content_Box .FCB_Quick_Intro .FCB_QI_SVG_Box .FCB_QI_SBox_item {
+    width: 20%;
+    height: inherit;
+    padding: 12px 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    color: #3f4064;
+    line-height: 24px;
+    text-decoration: none;
+}
+footer .Footer_Content_Box .FCB_Quick_Intro .FCB_QI_SVG_Box .FCB_QI_SBox_item .FCB_QI_SBoxi_Express{
+    width: 56px;
+    height: 56px;
+    background: #FFF url(../../image/footer/quick-intro/express-delivery.svg) no-repeat 50%;
+    background-size: contain;
+}
+footer .Footer_Content_Box .FCB_Quick_Intro .FCB_QI_SVG_Box .FCB_QI_SBox_item .FCB_QI_SBoxi_Cash{
+    width: 56px;
+    height: 56px;
+    background: #FFF url(../../image/footer/quick-intro/cash-on-delivery.svg) no-repeat 50%;
+    background-size: contain;
+}
+footer .Footer_Content_Box .FCB_Quick_Intro .FCB_QI_SVG_Box .FCB_QI_SBox_item .FCB_QI_SBoxi_Support{
+    width: 56px;
+    height: 56px;
+    background: #FFF url(../../image/footer/quick-intro/support.svg) no-repeat 50%;
+    background-size: contain;
+}
+footer .Footer_Content_Box .FCB_Quick_Intro .FCB_QI_SVG_Box .FCB_QI_SBox_item .FCB_QI_SBoxi_Return{
+    width: 56px;
+    height: 56px;
+    background: #FFF url(../../image/footer/quick-intro/days-return.svg) no-repeat 50%;
+    background-size: contain;
+}
+footer .Footer_Content_Box .FCB_Quick_Intro .FCB_QI_SVG_Box .FCB_QI_SBox_item .FCB_QI_SBoxi_Original{
+    width: 56px;
+    height: 56px;
+    background: #FFF url(../../image/footer/quick-intro/original-products.svg) no-repeat 50%;
+    background-size: contain;
+}
+/* /Quick_Intro */
+
+/* Digi_Links */
+footer .Footer_Content_Box .FCB_Digi_Links {
+    width: 97.3822%;
+    height: 270px;
+    margin-bottom: 32px;
+    background-color: lightgray;
+    display: none;
+}
+/* /Digi_Links */
+/* Download_Bar */
+footer .Footer_Content_Box .FCB_Download_Bar {
+    width: 97.3822%;
+    height: 76px;
+    margin-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 20px;
+    background-color: #3C4B6D;
+    border-radius: 8px;
+    font-size: 21px;
+    color: #FFF;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .Footer_Content_Box .FCB_Download_Bar img, svg {
+    height: 44px;
+    object-fit: contain;
+}
+footer .Footer_Content_Box .FCB_Download_Bar .FCB_DB_Right {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+}
+footer .Footer_Content_Box .FCB_Download_Bar .FCB_DB_Left, .FCB_DB_Left div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    object-fit: cover;
+}
+footer .Footer_Content_Box .FCB_Download_Bar .FCB_DB_Left div {
+    object-fit: contain;
+    border-radius: 4px;
+}
+footer .Footer_Content_Box .FCB_Download_Bar .FCB_DB_Left .FCB_DB_L_Bazzar {
+    width: 142px;
+    height: 44px;
+    background: #FFD url(../../image/footer/download-bar/coffe-bazzar.svg) no-repeat 50%;
+    background-size: contain;
+}
+footer .Footer_Content_Box .FCB_Download_Bar .FCB_DB_Left .FCB_DB_L_Myket {
+    width: 142px;
+    height: 44px;
+    background: #FFD url(../../image/footer/download-bar/Myket.svg) no-repeat 50%;
+    background-size: contain;
+}
+footer .Footer_Content_Box .FCB_Download_Bar .FCB_DB_Left .FCB_DB_L_Sibapp {
+    width: 142px;
+    height: 44px;
+    background: #FFD url(../../image/footer/download-bar/sib-app.svg) no-repeat 50%;
+    background-size: contain;
+}
+footer .Footer_Content_Box .FCB_Download_Bar .FCB_DB_Left .FCB_DB_L_More {
+    width: 44px;
+    height: 44px;
+    background: #FFF url(../../image/footer/download-bar/More.svg) no-repeat 50%;
+    background-size: contain;
+}
+/* /Download_Bar */
+
+footer .Footer_Content_Box .FCB_Disclaimer {
+    width: 100%;
+    margin-left: 15px auto;
+    margin-right: 15px auto;
+    padding: 32px 0;
+    font-size: 11px;
+    color: #81858b;
+    text-align: center;
+    border-top: 1px solid #f0f0f1;
+    font-weight: 200;
+}
+/* /Footer_Content_Box */
+/* Footer_SVG_Box */
+footer .Footer_SVG_Box {
+    width: 100%;
+    height: 160px;
+}
+footer .Footer_SVG_Box .FSB_row {
+    width: inherit;
+    height: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+footer .Footer_SVG_Box .row1 div {
+    width: 12.5%;
+}
+footer .Footer_SVG_Box .row2 div {
+    width: 14.29%;
+}
+footer .Footer_SVG_Box .FSB_row div {
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-color: #F0F0F1;
+    border: 1px solid #e0e0e2;
+}
+footer .Footer_SVG_Box .FSB_row .digikalamag {
+    background: #F0F0F1 url(../../image/footer/footer-svg/digimag.svg) no-repeat 50%;
+    background-size: 107.05px 20px;
+}
+footer .Footer_SVG_Box .FSB_row .digiplus {
+    background: #F0F0F1 url(../../image/footer/footer-svg/digiplus.svg) no-repeat 50%;
+    background-size: 78px 20px;
+}
+footer .Footer_SVG_Box .FSB_row .diginext {
+    background: #F0F0F1 url(../../image/footer/footer-svg/diginext.svg) no-repeat 50%;
+    background-size: 85px 20px;
+}
+footer .Footer_SVG_Box .FSB_row .digiexpress {
+    background: #F0F0F1 url(../../image/footer/footer-svg/digiexpress.svg) no-repeat 50%;
+    background-size: 121.25px 20px;
+}
+/* /Footer_SVG_Box */

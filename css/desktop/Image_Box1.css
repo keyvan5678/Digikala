@@ -1,0 +1,21 @@
+.Image_Box1 {
+    width: fit-content;
+    height: fit-content;
+    margin: 15px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 16px;
+}
+.Image_Box1 a {
+    width: fit-content;
+    height: calc(15.723 * 1vw);
+    text-decoration: none;
+}
+.Image_Box1 a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}

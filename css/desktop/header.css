@@ -1,0 +1,419 @@
+header {
+    width: 100%;
+    height: 338px;
+    position: relative;
+    z-index: 2;
+}
+/* header_Banner */
+header .header_Banner {
+    width: inherit;
+    height: 60px;
+    position: fixed;
+    z-index: 2;
+}
+header .header_Banner img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+/* /header_Banner */
+/* header_Center */
+header .header_Center {
+    width: inherit;
+    height: 68px;
+    margin: 0 auto;
+    padding: 12px 16px;
+    background-color: #FFF;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 60px;
+    z-index: 2;
+}
+header .header_Center .hC_Right {
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+header .header_Center .hC_Right .Logo {
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+header .header_Center .Search_Box{
+    width: 600px;
+    height: inherit;
+    padding: 0 16px;
+    background-color: #F0F0F1;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+header .header_Center .Search_Box input[type="search"]{
+    width: 100%;
+    height: inherit;
+    padding: 0 16px;
+    background-color: unset;
+    border: unset;
+    outline: unset;
+    font-family: IRANYekanWeb-Medium;
+    font-size: 12px;
+    color: #81858b;
+    border-radius: 8px;
+}
+header .header_Center .Search_Box input::placeholder {/* Firefox */
+    color: #81858b;
+    opacity: 1;
+}
+header .header_Center .Search_Box input::-ms-input-placeholder {/* Edge 12 -18 */
+    color: #81858b;
+}
+/* header .header_Center .Search_Box #Search_Bar:focus  .Search_Box {
+    background-color: #FFF;
+} */
+header .header_Center .Login{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
+}
+header .header_Center .Login .Login_Button{
+    width: fit-content;
+    height: inherit;
+    padding: 0 16px;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #0c0c0c;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+header .header_Center .Login .Login_Button .Login_Text {
+    width: max-content;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+header .header_Center .Login .section1{
+    width: 1px;
+    height: 24px;
+    background-color: #e0e0e2;
+}
+header .header_Center .Login .Shopping_Cart{
+    padding: 8px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+/* /header_Center */
+/* header_Menu */
+header .header_Menu{
+    width: inherit;
+    height: 40px;
+    background-color: #FFF;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    position: sticky;
+    top: 128px;
+    z-index: 1;
+    box-shadow: 0 1px 1px #ababab;
+}
+
+/* menu*/
+
+.menu{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    z-index: 12;
+   
+
+    direction: rtl;
+}
+
+ .menu .nav_menu {
+    width: 80%;
+    height: inherit;
+   display: flex;
+    flex-flow: row wrap;
+   column-gap: 20px;  
+   padding-right: 50px;
+   position: relative;
+
+ }
+ .menu .nav_menu  .menu_item{
+    width: fit-content;
+    height: inherit;
+   
+ }
+ .menu .nav_menu .menu_item .menu_link{
+    width: fit-content;
+    height: inherit;
+    display: block;
+    text-decoration: none;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: bold;
+     color: lightslategray;
+     line-height: 40px;
+    
+ }
+ .menu .nav_menu .menu_item .sub_menu{
+width: 80%;
+height: 70vh;
+
+position: absolute;
+display: none;
+ }
+ .menu .nav_menu .menu_item:hover .sub_menu{
+   display: block;
+ }
+.menu .nav_menu .menu_item:hover .sub_menu .sub_menu_parent .sub_menu_child .active{
+   display: block;
+}
+ .menu .nav_menu .menu_item .sub_menu .sub_menu_parent{
+    width: 20%;
+    height: inherit;
+   
+    overflow: auto;
+    direction: ltr;
+ }
+ .menu .nav_menu .menu_item .sub_menu .sub_menu_parent .sub_menu_child{
+    width: 100%;
+    height: 50px;
+    background: rgb(196, 194, 191);
+  direction: rtl;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+
+ }
+  .menu .nav_menu .menu_item .sub_menu .sub_menu_parent .sub_menu_child .sub_menu_link{
+   display: flex;
+   flex-flow: row;
+   align-items: center;
+   column-gap: 10px;
+   padding-right: 20px;
+   text-decoration: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 12px;
+   color: black;
+   font-weight: bold;
+
+   width: 100%;
+   height: inherit;
+  }
+    .menu .nav_menu .menu_item .sub_menu .sub_menu_parent .sub_menu_child .sub_menu_link:hover{
+background: #fff;
+color: red;
+    }
+ 
+
+   .menu .nav_menu .menu_item .sub_menu .sub_menu_parent .sub_menu_child .sub_sub_menu{
+      width: 80%;
+      height: 70vh;
+   background: rgb(229, 230, 231);
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: auto;
+      direction: ltr;
+    display: none;
+   }
+      .menu .nav_menu .menu_item .sub_menu .sub_menu_parent .sub_menu_child:hover .sub_sub_menu{
+         display: block;
+      }
+
+
+      .menu .nav_menu .menu_item .sub_menu .sub_menu_parent .sub_menu_child .sub_sub_menu h3{
+         color: aqua;
+         width: 100%;
+         height: 10%;
+         direction: rtl;
+      }
+      .menu .nav_menu .menu_item .sub_menu .sub_menu_parent .sub_menu_child .sub_sub_menu .sub_sub_parent{
+         width: 100%;
+         height: 90%;
+         display: flex;
+         flex-flow: row;
+         column-gap: 20px;
+         direction: rtl;
+      }
+       .menu .nav_menu .menu_item .sub_menu .sub_menu_parent .sub_menu_child .sub_sub_menu .sub_sub_parent .sub_sub_child{
+         width:20% ;
+         height: 100%;
+         display: flex;
+         flex-flow: column;
+         row-gap: 10px;
+         padding-right: 20px;
+       }
+         .menu .nav_menu .menu_item .sub_menu .sub_menu_parent .sub_menu_child .sub_sub_menu .sub_sub_parent .sub_sub_child .sub_sub_menu_link{
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+
+    /*///////////////////////////////////////////////////////////  */
+
+
+    ::-webkit-scrollbar{
+      width: 10px;
+      background:rgb(243, 241, 241);
+    }
+        ::-webkit-scrollbar-thumb{
+background: #888585;
+border-radius: 5px;
+        }
+         ::-webkit-scrollbar-thumb:hover{
+            background: red;
+         }
+
+
+
+
+/* Menu_Left */
+header .header_Menu .Menu_Left{
+    width: fit-content;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #3f4064;
+    text-decoration: none;
+    column-gap: 8px;
+    position: relative;
+    cursor: pointer;
+    right: 1100px;
+}
+header .header_Menu .Menu_Left .Tooltip_Text{
+    width: max-content;
+    height: inherit;
+    padding: 0 15px;
+    display: none;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #FFF;
+    background-color: #3F4064;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    top: 40px;
+    left: -9px;
+    border-radius: 8px;
+}
+header .header_Menu .Menu_Left:hover .Tooltip_Text{
+    display: flex;
+}
+header .header_Menu input[type="radio"]{
+    display: none;
+}
+header .header_Menu .Location_Event_Window {
+    width: 460px;
+    height: 540px;
+    background-color: white;
+    display: none;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 128px;
+    left: 550px;
+    z-index: 5;
+    border: 2px solid #e0e0e2;
+    border-radius: 8px;
+    opacity: 1;
+    transition: all ease 500ms;
+}
+header .header_Menu .Location_Event_Window .LE_Title {
+    width: inherit;
+    height: 60px;
+    padding: 12px 20px 12px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #0c0c0c;
+}
+header .header_Menu .Location_Event_Window .LE_City_List {
+    width: inherit;
+    height: 100%;
+    padding: 16px 20px;
+    overflow:auto;
+}
+header .header_Menu .Location_Event_Window .LE_City_List .LE_CL_item {
+    width: 100%;
+    height: 60px;
+    padding: 12px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: #3f4064;
+    text-decoration: none;
+    border-bottom: 1px solid #e0e0e2;
+}
+header .header_Menu .Location_Event_Window .LE_City_List a:first-child {
+    justify-content: flex-start;
+    color: #19bfd3;
+    column-gap: 16px;
+}
+header .header_Menu .Location_Event_Window .LE_City_List a:last-child {
+    border: unset;
+}
+header .header_Menu .Location_Event_Window [for="Open_Location"] {
+    display: flex;
+    position: relative;
+}
+header .header_Menu .Location_Event_Window [for="Close_Location"] {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 8px;
+}
+#Open_Location:checked ~ .Location_Event_Window {
+    display: flex;
+    opacity: 1;
+    box-shadow: 0 0 0 max(100vh, 100vw) rgba(0, 0, 0, .3);
+}
+#Open_Location:checked .Tooltip_Text {
+    visibility: hidden;
+    cursor: none;
+    pointer-events: none;
+}
+#Close_Location:checked ~ .Location_Event_Window {
+    display: none;
+}
+/* /Menu_Left */
+/* /header_Menu */

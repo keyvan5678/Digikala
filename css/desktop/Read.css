@@ -1,0 +1,74 @@
+.Read {
+    width: 87.4346%;
+    height: 344.73px;
+    margin: 15px auto;
+    padding: 16px 0;
+    display: flex;
+    flex-flow: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.Read .Read_Title {
+    width: 100%;
+    height: 65.6px;
+    padding: 16px 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.Read .Read_Title .RT_Text {
+    font-size: 16px;
+    color: #0c0c0c;
+}
+.Read .Read_Title a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.Read .Read_Title a span {
+    font-size: 12px;
+    color: #19bfd3;
+}
+.Read .Read_Box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.Read .Read_Box .RB_item {
+    width: 24.2066%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12px;
+    color: #0c0c0c;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+}
+.Read .Read_Box .RB_item img {
+    aspect-ratio: 610/380;
+    height: calc(13.116 * 1vw);
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.Read .Read_Box .RB_item p {
+    height: 52px;
+    margin: 8px 0 12px;
+    padding: 0 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 12px;
+    color: #0c0c0c;
+    line-height: 25px;
+}

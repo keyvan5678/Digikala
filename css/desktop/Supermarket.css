@@ -1,0 +1,141 @@
+.Supermarket {
+    width: 87.4346%;
+    height: 110px;
+    margin: 15px auto;
+    background: linear-gradient(267.6deg,rgba(242, 242, 242,1) 100%,rgba(242, 242, 242,1) 100%);
+    border-radius: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: center;
+}
+.Supermarket .Supermarket_SVG_Box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+}
+.Supermarket .Supermarket_Box {
+    width: 100%;
+    height: 100%;
+    padding: 16px 40px 12px 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.Supermarket .Supermarket_Box .SM_Right_Box {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Supermarket .Supermarket_Box .SM_Right_Box img {
+    width: 66px;
+    height: 62px;
+    object-fit: contain;
+    display: inline-block;
+}
+.Supermarket .Supermarket_Box .SM_Right_Box svg {
+    object-fit: contain;
+    margin: 0 20px;
+}
+.Supermarket .Supermarket_Box .SM_Right_Box .SM_Sale {
+    width: 110px;
+    height: 28px;
+    background-color: #39ae00;
+    border-radius: 9999px;
+    text-align: center;
+    border: 1px solid transparent;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Supermarket .Supermarket_Box .SM_Right_Box span {
+    color: #FFF;
+    font-size: 14px;
+}
+.Supermarket .Supermarket_Box .SM_Left_Box {
+    width: fit-content;
+    height: 74px;
+    margin-right: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Supermarket .Supermarket_Box .SM_Left_Box a {
+    width: 74px;
+    height: 74px;
+    padding: 8px;
+    margin-left: 8px;
+    display: flex;
+    flex-flow: column;
+    justify-content: right;
+    align-items: center;
+    text-decoration: none;
+    background: #FFF;
+    border-radius: 50%;
+}
+.Supermarket .Supermarket_Box .SM_Left_Box a span {
+    width: 34px;
+    height: 20px;
+    font-size: 12px;
+    color: #FFF;
+    background-color: #D32F2F;
+    padding: 0 4px;
+    border-radius: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1252px;
+    z-index: 1;
+}
+.Supermarket .Supermarket_Box .SM_Left_Box a img {
+    width: 48px;
+    height: 48px;
+    line-height: 0;
+}
+.Supermarket .Supermarket_Box .SM_Left_Box .SM_More {
+    width: fit-content;
+    height: 50px;
+    padding: 12px 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    background-color: #FFF;
+    z-index: 1;
+    column-gap: 8px;
+}
+.Supermarket .Supermarket_Box .SM_Left_Box .SM_More span {
+    font-size: 12px;
+    color: #39ae00;
+
+}
+#SML_S1{
+    left: 738px;
+}
+#SML_S2{
+    left: 655px;
+}
+#SML_S3{
+    left: 575px;;
+}
+#SML_S4{
+    left: 492px;
+}
+#SML_S5{
+    left: 410px;
+}
+#SML_S6{
+    left: 328px;
+}

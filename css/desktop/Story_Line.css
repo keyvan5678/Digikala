@@ -1,0 +1,47 @@
+.Story_Line{
+    height: 170px;
+    margin: 0 96px;
+    position: relative;
+    top: 130px;
+    z-index: 0;
+}
+.swiper {
+    width: 84px;
+    height: inherit;
+}
+.Story_Swiper-Slide {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+}
+.Story_Swiper-Slide .image_Box {
+    width: 84px;
+    height: 84px;
+    background: linear-gradient(315deg,#e03d96,#7d4c9e);
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.Story_Swiper-Slide .image_Box img {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+}
+.Story_Swiper-Slide span {
+    width: 84px;
+    height: 40px;
+    margin-top: 14px;
+    font-size: 11px;
+    display: inline-block;
+    color: #23254e;
+    overflow: hidden;
+    text-wrap: wrap;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}

@@ -1,0 +1,45 @@
+.Popular_Brands {
+    width: 87.4346%;
+    height: fit-content;
+    margin: 15px auto;
+    padding: 24px 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+}
+.Popular_Brands .PB_Title {
+    font-size: 21px;
+    color: #0c0c0c;
+    height: 44px;
+    display: flex;
+    flex-flow: row nowrap   ;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+.Popular_Brands .PB_Swiper_Name {
+    /* width: 100%; */
+    padding: 8px 0;
+    display: flex;
+    flex-flow: row nowrap   ;
+    justify-content: right;
+    align-items: center;
+}
+.Popular_Brands .PB_Swiper_Name .PB_Swiper_Slide {
+    display: flex;
+    flex-flow: row nowrap   ;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #e0e0e2;
+}
+.Popular_Brands .PB_Swiper_Name .PB_Swiper_Slide img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+}
+.Popular_Brands .PB_Swiper_Name .swiper-wrapper div:nth-last-child(1) {
+    border: unset;
+}

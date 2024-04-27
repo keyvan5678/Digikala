@@ -1,0 +1,48 @@
+.Services {
+    width: inherit;
+    height: 128px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Services .Services_Box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Services .Services_Box nav {
+    width: 80.3665%;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.Services .Services_Box nav a {
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.Services .Services_Box nav a div img {
+    width: 52px;
+    height: inherit;
+}
+.Services .Services_Box nav a .More_H {
+    height: 52px;
+    width: 52px;
+    background-color: #F0F0F1;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
